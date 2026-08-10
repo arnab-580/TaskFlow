@@ -31,8 +31,8 @@ npm run build
 ## Docker
 
 ```bash
-docker build -t nebula-frontend .
-docker run -d --name nebula-frontend -p 80:80 nebula-frontend
+docker build -t TASKFLOW .
+docker run -d --name taskflow -p 80:80 taskflow
 ```
 
 Open http://localhost
@@ -41,9 +41,9 @@ Open http://localhost
 
 ```bash
 git clone YOUR_REPOSITORY
-cd nebula-react-frontend
-docker build -t nebula-frontend .
-docker run -d --name nebula-frontend -p 80:80 nebula-frontend
+cd TaskFlow
+docker build -t TASKFLOW .
+docker run -d --name taskflow -p 80:80 taskflow
 ```
 
 Allow inbound TCP 80 in the EC2 Security Group and open:
