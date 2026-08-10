@@ -43,7 +43,7 @@ Open http://localhost
 git clone YOUR_REPOSITORY
 cd TaskFlow
 docker build -t TASKFLOW .
-docker run -d --name taskflow -p 80:80 taskflow
+docker run -d --name taskflow -p 443:443 taskflow
 ```
 
 Allow inbound TCP 80 in the EC2 Security Group and open:
